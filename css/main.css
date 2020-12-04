@@ -449,6 +449,13 @@ img {
   color: #fff;
 }
 
+.deal {
+  font-size: 20px;
+  text-align: center;
+  margin: 2rem;
+  color: #fff;
+}
+
 /* Common */
 .month select,
 .year select {
