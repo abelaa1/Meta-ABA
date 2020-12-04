@@ -485,10 +485,9 @@ img {
 }
 
 /* Buttons Section */
-.paypal-btn,
 .proceed-btn {
     cursor: pointer;
-    font-size: 16px;
+    font-size: 40px;
     width: 100%;
     border-color: transparent;
     border-radius: 6px;
@@ -498,23 +497,13 @@ img {
     margin-bottom: 10px;
     background: #7dc855;
 }
- 
-.paypal-btn a,
+
 .proceed-btn a {
     text-decoration: none;
 }
  
 .proceed-btn a {
     color: #fff;
-}
- 
-.paypal-btn a {
-    color: rgba(242, 242, 242, .7);
-}
- 
-.paypal-btn {
-    padding-right: 95px;
-    background: url('paypal-logo.svg') no-repeat 65% 56% #009cde;
 }
 
 
