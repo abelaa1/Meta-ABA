@@ -459,7 +459,7 @@ img {
 .year select {
     font-size: 20px;
     font-weight: 100;
-    line-height: 14px;
+    line-height: 30px;
 }
  
 .card-number,
@@ -467,7 +467,7 @@ img {
 .year select {
     font-size: 20px;
     font-weight: 100;
-    line-height: 14px;
+    line-height: 30px;
 }
  
 .card-number,
@@ -475,7 +475,7 @@ img {
 .cvv-input input,
 .month select,
 .year select {
-    opacity: 1;
+    opacity: .7;
     color: #86939e;
 }
 
@@ -496,7 +496,7 @@ img {
     padding-left: 20px;
     border: 2px solid #e1e8ee;
     border-radius: 6px;
-    background-color: #fff;
+    background: url('caret.png') no-repeat 65% 56% #fff;
     background-position: 85% 50%;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -523,7 +523,7 @@ img {
 .cvv-details {
   font-size: 12px;
   font-weight: 300;
-  line-height: 16px;
+  line-height: 30px;
   float: right;
   margin-bottom: 20px;
 }
