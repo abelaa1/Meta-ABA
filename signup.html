@@ -16,75 +16,91 @@
 		<div class="container-login100" style="background-image: url('images/background.jpg');">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form">
-                    <img src="./images/metaaba.png">
-                    <span class="login100-form-title p-b-34 p-t-27">
+          <img src="./images/metaaba.png">
+          <span class="login100-form-title p-b-34 p-t-27">
 						Sign Up
-					</span>
-                    <div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Username">
-					</div>
-
-					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="pass" placeholder="Password">
-					</div>
-                    <div>
-                      <h4 class="title">Credit card detail</h4>
-                    </div>
-                   
-                    <div>
-                      <!-- Card Number -->
-                      <div class="wrap-input100 validate-input" data-validate="Enter Card Number">
-                        <input type="text" class="input100" placeholder="Card Number">
-                      </div>
-                   
-                      <!-- Date Field -->
-                      <div class="date-field wrap-input100 validate-input" data-validate="Enter Expiration Date">
-                        <div>
-                          <select name="Month" class="input100">
-                            <option value="january">January</option>
-                            <option value="february">February</option>
-                            <option value="march">March</option>
-                            <option value="april">April</option>
-                            <option value="may">May</option>
-                            <option value="june">June</option>
-                            <option value="july">July</option>
-                            <option value="august">August</option>
-                            <option value="september">September</option>
-                            <option value="october">October</option>
-                            <option value="november">November</option>
-                            <option value="december">December</option>
-                          </select>
-                        </div>
-                        <div>
-                          <select name="Year" class="input100">
-                            <option value="2016">2016</option>
-                            <option value="2017">2017</option>
-                            <option value="2018">2018</option>
-                            <option value="2019">2019</option>
-                            <option value="2020">2020</option>
-                            <option value="2021">2021</option>
-                            <option value="2022">2022</option>
-                            <option value="2023">2023</option>
-                            <option value="2024">2024</option>
-                          </select>
-                        </div>
-                      </div>
-                   
-                      <!-- Card Verification Field -->
-                      <div class="card-verification wrap-input100 validate-input" data-validate="CVV">
-                        <div>
-                          <input type="text" class="input100" placeholder="CVV">
-                        </div>
-                        <div class="cvv-details">
-                          <p>3 or 4 digits usually found <br> on the signature strip</p>
-                        </div>
-                      </div>
-                   
-                      <!-- Buttons -->
-                      <button type="submit" class="proceed-btn"><a href="#">Proceed</a></button>
-                      <button type="submit" class="paypal-btn"><a href="#">Pay With</a></button>
-                    </div>
-                  </form>
+          </span>
+          <div>
+            <h4 class="title">User detail</h4>
+          </div>
+          <div>
+            <div class="wrap-input100 validate-input" data-validate = "Enter email">
+              <input class="input100" type="text" name="email" placeholder="Email">
+            </div>
+            <div class="wrap-input100 validate-input" data-validate = "Enter firstname">
+              <input class="input100" type="text" name="firstname" placeholder="First Name">
+            </div>
+            <div class="wrap-input100 validate-input" data-validate = "Enter lastname">
+              <input class="input100" type="text" name="lastname" placeholder="Last Name">
+            </div>
+            <div class="wrap-input100 validate-input" data-validate = "Enter Birthday">
+              <div class="birthday">Birthday</div>
+              <input class="input100" type="date" name="Birthday">
+            </div>
+            <div class="wrap-input100 validate-input" data-validate = "Enter username">
+              <input class="input100" type="text" name="username" placeholder="Username">
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Enter password">
+              <input class="input100" type="password" name="pass" placeholder="Password">
+            </div>
+          </div>
+          <div>
+            <h4 class="title">Credit card detail</h4>
+          </div>
+          <div>
+            <!-- Card Number -->
+            <div class="wrap-input100 validate-input" data-validate="Enter Card Number">
+              <input type="text" class="input100" placeholder="Card Number">
+            </div>
+          
+            <!-- Date Field -->
+            <div class="date-field wrap-input100 validate-input" data-validate="Enter Expiration Date">
+              <div class="month">
+                <select name="Month" class="input100">
+                  <option value="january">January</option>
+                  <option value="february">February</option>
+                  <option value="march">March</option>
+                  <option value="april">April</option>
+                  <option value="may">May</option>
+                  <option value="june">June</option>
+                  <option value="july">July</option>
+                  <option value="august">August</option>
+                  <option value="september">September</option>
+                  <option value="october">October</option>
+                  <option value="november">November</option>
+                  <option value="december">December</option>
+                </select>
+              </div>
+              <div class="year">
+                <select name="Year" class="input100">
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                </select>
+              </div>
+            </div>
+          
+            <!-- Card Verification Field -->
+            <div class="card-verification wrap-input100 validate-input" data-validate="CVV">
+              <div>
+                <input type="text" class="input100" placeholder="CVV">
+              </div>
+              <div class="cvv-details">
+                <p>3 or 4 digits usually found <br> on the signature strip</p>
+              </div>
+            </div>
+          
+            <!-- Buttons -->
+            <button type="submit" class="proceed-btn"><a href="#">Proceed</a></button>
+            <button type="submit" class="paypal-btn"><a href="#">Pay With</a></button>
+          </div>
+        </form>
 			</div>
 		</div>
 	</div>
